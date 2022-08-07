@@ -31,3 +31,20 @@ body{
 .placeholder-1{
     background-color: darkgray;
 }
+
+.header{
+    display:flex;
+    justify-content: space-around;
+}
+
+.section-1-main{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
