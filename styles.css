@@ -7,6 +7,10 @@ body{
     background-color: #1f2937;
 }
 
+.section-1{
+    padding-bottom: 50px;
+}
+
 .header-logo,
 .hero-main{
     color: #F9FAF8;
@@ -26,19 +30,25 @@ body{
 .hero-main{
     font-size: 48px;
     font-weight: bold; /*this should be extrabold*/
+    width: 350px;
 }
 
 .placeholder-1{
     background-color: darkgray;
+    padding: 40px;
+    align-self: center; /*doesn't work as expected*/
 }
 
 .header{
     display:flex;
     justify-content: space-around;
+    padding: 18px;
 }
 
 .section-1-main{
     display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 ul{
@@ -47,4 +57,8 @@ ul{
     margin: 0;
     padding: 0;
     gap: 20px;
+}
+
+.hero-second{
+    width: 400px;
 }
