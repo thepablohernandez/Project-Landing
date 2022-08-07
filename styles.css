@@ -1,4 +1,19 @@
+body{
+    font-family:  'Roboto' , Times ;
+}
+
 .section-1,
 .footer{
     background-color: #1f2937;
+}
+
+.header-logo,
+.hero-main{
+    color: #F9FAF8;
+}
+
+.header-links,
+.hero-second{
+    color: #e5e7eb;
+    font-size: 18px;
 }
