@@ -13,7 +13,8 @@ body{
 }
 
 .header-logo,
-.hero-main{
+.hero-main,
+.sect-4-title{
     color: #F9FAF8;
 }
 
@@ -24,7 +25,8 @@ body{
     font-size: 18px;
 }
 
-.header-logo{
+.header-logo,
+.sect-4-title{
     font-size: 24px;
 }
 
@@ -173,8 +175,13 @@ img{
 
 }
 
+.sect-4-title{
+    font-weight: 600;
+}
+
 .sect-4-right{
     margin-left: auto;
+    align-self: center;
 }
 
 .sect-4-right button{
