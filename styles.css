@@ -124,3 +124,32 @@ img{
     margin-top: 6px;
 
 }
+
+
+/* up to this point, mainly code to style section 2 */
+
+.section-3{
+ 
+    background-color: #e5e7eb;
+
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    padding: 50px; 
+    gap: 10px;
+}
+
+.quote{
+
+
+}
+
+.quote-credit{
+
+
+    text-align: end; 
+}
