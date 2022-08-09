@@ -137,19 +137,20 @@ img{
 .quote-container{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 800px;
     margin: auto;
     padding: 50px; 
     gap: 10px;
 }
 
 .quote{
-
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
 
 }
 
 .quote-credit{
-
-
     text-align: end; 
+    font-weight: 700;
 }
