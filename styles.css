@@ -65,7 +65,12 @@ ul{
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 20px;
+    gap: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .hero-second{
