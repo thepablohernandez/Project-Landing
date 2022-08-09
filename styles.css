@@ -36,7 +36,8 @@ body{
 .placeholder-1{
     background-color: darkgray;
     padding: 40px;
-    align-self: center; /*doesn't work as expected*/
+
+
 }
 
 .header{
@@ -47,8 +48,14 @@ body{
 
 .section-1-main{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 30px;
+    padding: 18px;
+}
+
+.sect-1-right{
+    align-self: center;
+
 }
 
 ul{
@@ -62,3 +69,16 @@ ul{
 .hero-second{
     width: 400px;
 }
+
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color:#F9FAF8;
+    font-weight: 700;
+    border: none;
+    padding: 4px 18px;
+    margin-top: 12px;
+}
+
+/* up to this point, mainly code to style section 1 */
+/* pending: work on left & right margin and padding, to align content */
