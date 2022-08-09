@@ -82,3 +82,35 @@ button{
 
 /* up to this point, mainly code to style section 1 */
 /* pending: work on left & right margin and padding, to align content */
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title{
+
+}
+
+.info-container{
+    display: flex;
+    gap: 30px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.infotext{
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
+
+}
