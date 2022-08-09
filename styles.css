@@ -29,7 +29,7 @@ body{
 
 .hero-main{
     font-size: 48px;
-    font-weight: bold; /*this should be extrabold*/
+    font-weight: 800;
     width: 350px;
 }
 
