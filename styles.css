@@ -155,3 +155,33 @@ img{
     text-align: end; 
     font-weight: 700;
 }
+
+/* up to this point, mainly code to style section 3 */
+
+.section-4{
+    display: flex;
+    justify-content: center;
+}
+
+.text-box{
+    display: flex;
+    padding: 30px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 60px auto 60px auto;
+    width: 1000px;
+
+}
+
+.sect-4-right{
+    margin-left: auto;
+}
+
+.sect-4-right button{
+    border: 1px solid white;
+    margin-top: 0px;    
+}
+
+
+
+
