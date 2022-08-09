@@ -208,3 +208,11 @@ img{
     width: 600px;
 }
 
+/* up to this point, mainly code to style section 4 */
+
+
+.footer{
+    text-align: center;
+    color: #e5e7eb;
+    padding: 30px;
+}
