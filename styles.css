@@ -81,6 +81,8 @@ button{
     border: none;
     padding: 4px 18px;
     margin-top: 12px;
+    font-size: 18px;
+    width: 110px;
 }
 
 /* up to this point, mainly code to style section 1 */
@@ -187,8 +189,16 @@ img{
 .sect-4-right button{
     border: 1px solid white;
     margin-top: 0px;    
+    flex: 0 0 auto;
 }
 
+.sect-4-left{
+    display: flex;
+    flex-direction: column;
 
+}
 
+.hero-second{
+    width: 600px;
+}
 
